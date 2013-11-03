@@ -15,7 +15,8 @@ $(document).ready(function() {
     $(viewPortRuler)
       .css({
         'background':'#EEE',
-        'position' : 'absolute',
+        'border-radius' : '2px',
+        'position' : 'fixed',
         'border' : '1px solid #AAA',
         'bottom' : 0,
         'font-size' : '0.875em',
@@ -23,8 +24,8 @@ $(document).ready(function() {
         'padding' : '3px 7px',
         'margin' : '6px',
         'cursor' : 'pointer',
-        'z-index' : 9999,
-        'opacity': 0.5
+        'box-shadow' : '0 2px 1px #CCC',
+        'z-index' : 9999
       });
 
     // prepend the div to the body
